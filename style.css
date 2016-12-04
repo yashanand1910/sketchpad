@@ -1,0 +1,42 @@
+body{
+	text-align: center;
+}
+h1{
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+#changegrid-button{
+	margin-bottom: 20px;
+	font-size: 12px;
+	font-family: sans-serif;
+	padding: 10px 15px;
+	border: 1px solid red;
+	background-color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	color: red;
+	transition: 0.2s;
+}
+#changegrid-button:hover{
+	background-color: red;
+	padding-right: 18px;
+	padding-left: 18px;
+	color: white;
+	transition: 0.2s;
+
+}
+.container{
+	margin: 0 auto;
+	border: 10px solid #f0f0f0;
+	width: 700px;
+	height: auto;
+}
+.square{
+	display: inline-block;
+	float: right;
+	border: 0.5px solid #f3f3f3;
+	margin: -0.5px;
+}
